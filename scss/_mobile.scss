@@ -1,0 +1,58 @@
+@media (max-width: 600px) {
+
+    section#welcome {
+        flex-direction: column;
+        justify-content: inherit;
+        align-items: inherit;
+        
+        .welcome-title {
+            width: auto;
+
+            h1 {
+                font-size: 6em;
+            }
+
+        }
+
+        .welcome-intro {
+            width: 90%;
+        }
+    }
+
+    section#inter {
+        flex-direction: column;
+
+        .interp {
+            text-align: center;
+        }
+
+        .interbutton {
+            margin-bottom: 20px;
+        }
+    }
+
+    section#services {
+
+        .servicescontainer {
+            grid-template-columns: 1fr;
+
+            .servicesitem {
+
+                img {
+                    width: 100px;
+                    height: auto;
+                    text-align: center;
+                }
+
+                span {
+                    font-size: 1.1em;
+                }
+
+                p {
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+}
+
